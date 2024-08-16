@@ -9,7 +9,7 @@ public class Con {
     public Con() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            c = DriverManager.getConnection("jdbc:mysql:///BankManagementSystems", "root", "Dhana9");
+            c = DriverManager.getConnection("jdbc:mysql:///BankManagementSystems", "root", "Dhana");
             s = c.createStatement();
         }
         catch(Exception e) {
